@@ -23,9 +23,33 @@ header {
   color: orange;
 }
 
+.maincontent {
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
 .sidebutton {
-  background-color: #ee0000;
+  position: absolute;
+  height: 30px;
+  width: 30px;
+  margin-top: 20px;
+  margin-left: -13px;
+  background-color: orange;
   border-radius: 5px;
   -moz-border-radius: 5px;
   -webkit-border-radius: 5px;
+}
+
+.sidebutton img {
+  height: 30px;
+  width: 30px;
+  margin-left: 2px;
+}
+
+.sidebutton ul {
+  display: none;
+}
+
+.sidenbutton a:hover {
+
 }
