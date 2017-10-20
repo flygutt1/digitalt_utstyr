@@ -7,6 +7,15 @@ body{
   text-align: left;
 }
 
+header {
+  background: #35424a;
+  color: #ffffff;
+  padding-top: 30px;
+  min-height: 70px;
+  border-bottom: #40FF00 3px solid;
+  border-top: #40FF00 3px solid;
+}
+
 .titlecolor {
   color: orange;
 }
