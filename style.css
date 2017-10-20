@@ -1,21 +1,32 @@
-body{
+body {
   background-color: #FFF;
   color: 000305;
   font-size:87.5%;
   font-family: Arial, sans-serif, helvetica, "Lucida Sans Unicode";
   line-height:1.5;
   text-align: left;
+  width: 100%;
 }
 
 header {
   background: #35424a;
   color: #ffffff;
-  padding-top: 30px;
+  width: 100%;
+  padding-top: 10px;
+  padding-bottom: 10px;
   min-height: 70px;
-  border-bottom: #40FF00 3px solid;
-  border-top: #40FF00 3px solid;
+  border-bottom: orange 3px solid;
+  padding-left: 20px;
+  margin: -10px;
 }
 
 .titlecolor {
   color: orange;
+}
+
+.sidebutton {
+  background-color: #ee0000;
+  border-radius: 5px;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
 }
