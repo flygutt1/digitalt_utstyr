@@ -77,4 +77,26 @@ a {
 
 .sidebutton:hover ul li {
   display: block;
+  transition: 4s ease-in-out;
+}
+
+.sidebutton ul li:hover {
+  background-color: #d74600;
+}
+
+.mainfooter {
+  width: 100%;
+  height: 40px;
+  float: left;
+  border-radius: 5px;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  background-color: orange;
+  margin: 2% 0;
+}
+
+.mainfooter p {
+  width: 92%;
+  margin: 10px auto;
+  color: #FFF;
 }
