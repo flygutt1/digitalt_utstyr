@@ -46,10 +46,35 @@ header {
   margin-left: 2px;
 }
 
-.sidebutton ul {
-  display: none;
+.sidebutton nav {
+  margin-top: -50px;
+  margin-left: -14px;
 }
 
-.sidenbutton a:hover {
+.sidebutton ul li {
+  display: none;
+  background-color: orange;
+  float: left;
+  list-style: none;
+  width: 120px;
+  text-align: center;
+}
 
+ul li a {
+  text-decoration: none;
+}
+
+.sidebutton ul li a {
+  text-decoration: none;
+  color: white;
+  padding: 8px;
+  font-size: 20px;
+}
+
+a {
+  text-decoration: none;
+}
+
+.sidebutton:hover ul li {
+  display: block;
 }
